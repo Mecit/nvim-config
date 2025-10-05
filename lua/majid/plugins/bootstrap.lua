@@ -1,0 +1,6 @@
+require('majid.plugins.treesitter')
+require('majid.plugins.mason')
+require('majid.plugins.cmp')
+require('majid.plugins.lualine')
+require('majid.plugins.telescope')
+require('majid.plugins.colorscheme')
