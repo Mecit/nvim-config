@@ -3,7 +3,7 @@ vim.pack.add({
 })
 
 require("nvim-treesitter.configs").setup({
-	ensure_installed = { "elixir", "lua", "vim", "bash", "json", "html", "javascript" },
+	ensure_installed = { "elixir", "erlang", "eex", "heex", "lua", "vim", "bash", "json", "html", "javascript" },
 	highlight = { enable = true },
 	indent = { enable = true },
 })
